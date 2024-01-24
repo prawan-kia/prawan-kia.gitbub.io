@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prawan Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- logged in font awesome with persona account -->
+    <script src="https://kit.fontawesome.com/1db6c25028.js" crossorigin="anonymous"></script>
+
+    <!-- link font or change fonts here -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <!-- link css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+            <img src="img/smile.jpg" alt="" class="logo__img">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Prawan Amatya</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Geospatial/Data Analyst</p>
+        <img src="img/pa.jpg" alt="profile pic" class="intro__img">
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">My Profiles</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Data Analyst</h3>
+                <p>With over three years of experience in transforming data into insights and solutions. I have extensive knowledge and skills in data collection, cleaning, analysis, and visualization using various tools such as Google Looker, Power BI, SQL, Python, and Excel. I have successfully completed projects in various domains, such as marketing, finance, healthcare, and education, by applying data-driven approaches and best practices. I am passionate about finding patterns, trends, and anomalies in data and communicating them effectively to stakeholders and decision-makers. I am always eager to learn new technologies and methods to enhance my data analysis capabilities and deliver high-quality results.</p>
+                <!-- /service -->
+            </div>
+            <div class="service">
+                <h3>GIS Specialist</h3>
+                <p>With over eight years of experience in applying geospatial technologies to various projects and domains. I have expertise in using ESRI products, such as ArcGIS Desktop, ArcGIS Server, and ArcGIS Online, to perform spatial analysis, create maps, and publish web services. I have also developed custom GIS applications using Python, JavaScript/HTML5/CSS3, and open-source APIs, such as Leaflet and OpenLayers. I have strong skills in database management, data quality control, and data visualization. I have successfully completed projects in fields such as urban planning, transportation, and public health, by providing geospatial solutions and insights. I am passionate about learning new GIS tools and techniques and sharing my knowledge with others.</p>
+            </div>
+            
+            <!-- /service -->
+            <div class="service">
+                <h3>Urban Planner</h3>
+                <p>with a passion for creating sustainable and livable cities. I have experience in conducting feasibility studies, designing multi-use buildings, and working with geographic information systems (GIS).I am proficient in using various software and tools for urban planning, such as ArcGIS, AutoCAD, SketchUp, SPSS, and Excel. I have excellent communication, analytical, and problem-solving skills. I am eager to learn new things and take on new challenges. I am looking for an opportunity to apply my skills and experience to contribute to the development of innovative and sustainable urban solutions.</p>
+            <!-- /service -->
+            </div>
+
+            <div class="service">
+                <h3>Architect</h3>
+                <p>With over five years of experience in designing commercial and residential structures of varying styles and purposes. I am proficient in using various software and tools for architecture, such as AutoCAD, SketchUp, Revit, and Photoshop.Creating a concept design for a mixed-use development that includes retail, residential, and recreational spaces, and integrates with the existing urban context and transportation network.I am able to work effectively and collaboratively with clients, contractors, and consultants. I am passionate about creating aesthetic and functional spaces that enhance the quality of life for the users and the environment.</p>
+            <!-- /service -->
+            </div>
+         <!--/services  -->
+        </div>
+        <!-- <a href="#work" class="btn">My Work</a> -->
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who am I?</h2>
+        <p class="section__subtitle section__subtitle--about">Data/GIS Analyst, Urban Planner & Architect</p>
+
+        <div class="about-me__body">
+            <p>I am a data analyst and urban planner with a diverse educational and professional background. I have a master’s degree in geographic information science, a master’s degree in urban planning, a graduate GIS certificate in GIS, and a bachelor’s degree in architecture. I am currently pursuing a Google Advanced Data Analytics Professional Certificate to enhance my skills and knowledge in this field. I have experience in working with various data sources, tools, and platforms, such as Google Cloud, BigQuery, SQL, Python, R, Tableau, ArcGIS, AutoCAD, and SketchUp. I can perform data collection, cleaning, analysis, visualization, and reporting using these tools. I can also apply data-driven insights to inform urban planning decisions and policies.</p>
+        </div>
+
+        <img src="img\Langtang trip profile.jpg" alt="Reservoir-background" class="about-me__img">
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- social media links -->
+        <a href="mailto:prawan-kia@outmail.com" class="footer__link">
+            Email
+        </a>
+        <ul class="social-list">
+            <!-- <li class="social-list_item">
+                <a href="mailto:prawan-kia@outmail.com" class="footer__link">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </li> -->
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://dribbble.com">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>               
+        </ul>
+    </footer>
+
+     <!-- link js file -->
+     <script src="js/index.js"></script>
+</body>
+</html>
