@@ -466,21 +466,25 @@ header {
 
 /* Individual portfolio item styles */
 
-.portfolio-item-individual {
-    padding: 0 2em 2em;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.portfolio-item-individual p {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .portfolio-individual {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    background-color: var(--clr-dark);
+    /* color: var(--clr-light); */
+    text-align: center; 
+    width: auto;
+    
+}
+.portfolio-individual-iframe{
+    width: calc(90%);
+    height: 600px;
+    
+}
+
+/* style for resume iframe */
+.resume-individual{
+    background-color: var(--clr-dark);
+    text-align: center;
+}
+.resume-iframe{
+    width: calc(90%);
+    height: 600px;
 }
